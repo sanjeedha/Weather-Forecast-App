@@ -1,0 +1,122 @@
+body{
+  background-image: url("https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+#map {
+  height: 100%;
+  background-color: rgba(185, 109, 109, 0.42);
+}
+
+#centre{
+  text-align: center;
+  border: solid;
+  border-color: white;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  border-width: 0;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #e86454;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.wi {
+  display: inline-block;
+  font-family: 'weathericons';
+  color: #ffffff;
+  font-size: 7.5em;
+  line-height: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #e86454;
+  background: #e86454;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#map1{
+  background-color: rgba(49, 28, 26, 0.73);
+}
+
+#location{
+  text-align: center;
+  margin-top: 7%;
+}
+#summary{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+#daily{
+  font-size:6px;
+  display: flex;
+  justify-content: center;
+}
+
+#daily td{
+  padding-right: 22px;
+}
+ #daily_head{
+   text-align: left;
+   justify-content: left;
+   display: flex;
+   margin-left: 28px;
+ }
+#forecast{
+  color: wheat;
+  margin-top: 16px;
+  margin-left: 9px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+#forecast td{
+  padding-right: 38px;
+}
+
+#daily_summary{
+  color: white;
+  margin-left: 39px;
+  margin-top: 26px;
+  font-size: 17px;
+  margin-right: 20px;
+  line-height: 1.8em;
+}
